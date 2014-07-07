@@ -1,0 +1,41 @@
+*{padding: 0;margin: 0;}
+body{font: 14px/1.5 Arial, Sans-Serif, Verdana;}
+
+#container{width: 90%;margin: 0 auto;}
+#header{padding-top:20px}
+nav{width:88%; margin: 0 auto;}
+nav ul{z-index: 1; }
+nav ul:after{clear: both;}
+nav ul li{display:block; position:relative; margin:0.05% ;float:left; list-style-type: none; width: 150px;} 
+
+nav ul li a{display:block;color:#FFF; background-color: #001908; text-decoration: none; border: 1px solid #ccffdd; text-align: center; padding: 10px 0; }
+nav ul li a:hover{border: 1px solid #00b23b ; background-color: #0c8804}
+
+
+nav ul ul{display: none; width: 150px; position: absolute; left: 0; top: 100%; }
+nav ul ul li{float:none;}
+nav ul ul li a{display:block; padding: 10px 0;}
+nav li:hover>ul{display: block; z-index: 99;}
+
+nav ul ul li:hover>ul {display: block; position: absolute; left:150px; top:0;}
+nav ul ul ul li:hover>ul {display: block; position: absolute; left:150px; top:0;}
+
+#section{padding-top: 80px; width: 88%; margin: 0 auto}
+section ul{}
+section ul li{margin:20px 7px 20px 50px;float:left;list-style-type: none;}
+section ul li img{border: 2px solid #000}
+
+
+section .page ul{ position: relative; top: 310px; left: 15px; list-style: none; }
+section .page ul li{margin: 10px 5px 10px 5px; display: block;}
+section .page ul li img{width:160; height: 120px;}
+section .page ul li input {display: none; }
+section .page ul li input:checked + label div.photo {display: block; }
+section .page ul li label img.small {border: 1px solid black; width: 160px; height: 140px;} 
+section .page ul li label div.photo {position: absolute; display: none; top: -310px;left: 29%}
+section .page ul li label div.photo img.big {border: 1px solid black; width: 400px; height: 300px; }
+
+
+
+
+
