@@ -21,7 +21,7 @@ nav ul ul li:hover>ul {display: block; position: absolute; left:150px; top:0;}
 nav ul ul ul li:hover>ul {display: block; position: absolute; left:150px; top:0;}
 
 #section{padding-top: 80px; width: 88%; margin: 0 auto}
-section ul{}
+section ul:after{clear:both;}
 section ul li{margin:20px 7px 20px 50px;float:left;list-style-type: none;}
 section ul li img{border: 2px solid #000}
 
